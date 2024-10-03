@@ -1,0 +1,14 @@
+CONFIG={
+    "hidden_dims":512,
+    "num_heads":8,
+    "max_seq_length_encoder":512,
+    "max_seq_length_decoder":128,
+    "num_encoder_layers":4,
+    "num_decoder_layers":4,
+    "vocab_size":30522,
+    "teacher_forcing_ratio":0.5,
+    "dropout":0.1,
+    "num_epochs":10,
+    "batch_size":16,
+    "learning_rate":1e-7,
+}
